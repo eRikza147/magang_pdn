@@ -1,7 +1,7 @@
 @extends('home.template')
 
 @section('title')
-    Halaman home
+    home
 @endsection
 
 @section('content')
