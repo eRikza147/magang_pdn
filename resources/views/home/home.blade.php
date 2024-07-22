@@ -4,6 +4,17 @@
     home
 @endsection
 
+@if (session('pesan'))
+    
+@php
+    $pesan = session('pesan');
+@endphp    
+
+<script>
+    alert("{{$pesan}}");   
+</script>
+@endif
+
 @section('content')
     <div class="flex justify-between">
         <div class="text-x font-bold">Data User</div>
